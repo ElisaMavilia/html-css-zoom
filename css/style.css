@@ -1,0 +1,13 @@
+/* debug */
+.debug{
+    border:2px solid red;
+    height: 50%;
+    width: 50%;
+}
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
