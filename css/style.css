@@ -12,17 +12,21 @@
 
 /* utility colors */
 :root {
-	--color-black-primary: #000000;
-	--color-red-text: #e22131;
-	--color-white-text: #ffffff;
-	--color-green-icon: #4bc800;
-	--color-black-secondary: #222222;
+    --color-black-primary: #000000;
+    --color-red-text: #e22131;
+    --color-white-text: #ffffff;
+    --color-green-icon: #4bc800;
+    --color-black-secondary: #222222;
+    --color-bg-grey: #4a4a4a;
+    
 }
 
 /* utility flex */
 .d-flex{
     display: flex;
 }
+
+/* icons */
 
 /* body */
 body{
