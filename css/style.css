@@ -34,6 +34,10 @@
     justify-content: flex-end;
 }
 
+.j-content-flex-start{
+justify-content: flex-start;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -42,9 +46,19 @@
     align-items: center;
 }
 
+.a-items-start{
+    align-items: flex-start;
+}
+
 .a-content-center{
     align-content: center;
 }
+
+.direction-column{
+    flex-direction: column;
+}
+
+
 
 /* icons */
 
@@ -69,7 +83,10 @@
 a{
     color: var(--color-white-text);
     text-decoration: none;
+}
 
+p{
+    font-size: small;
 }
 
 /* body */
@@ -121,11 +138,28 @@ main div img{
     padding: 2px;
 }
 
-
 /* toolbar */
 #toolbar{
     width: 100%;
     height: 70px;
     background-color: var(--color-black-secondary);
+}
+
+.caret{
+    padding-top: 10px;
+}
+
+.toolbar-actions{
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.fa-microphone{
+    padding-left: 12px;
+}
+
+.fa-video{
+    padding-left: 15px;
 }
 
