@@ -26,6 +26,10 @@
     display: flex;
 }
 
+.j-content-space-between{
+    justify-content: space-between;
+}
+
 .j-content-flex-end{
     justify-content: flex-end;
 }
@@ -87,26 +91,24 @@ main{
     width: 100%;
     gap: 10px; 
     margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
     margin-bottom: 50px;
     overflow-y: auto;
     background-color: var(--color-black-primary);
-    ;
 }
 
 .userbox{
-    width: calc(100% / 7 - 70px);
+    width: calc(100% / 7 - 10px);
     min-width: 300px;
     background-color: blue;
-    aspect-ratio: 16 / 9;
+    
 }
 
-.userbox img{
+main div img{
     height: 100%;
     width: 100%;
     display: block;
     object-fit: cover;
+    aspect-ratio: 16 / 9;
 }
 
 
