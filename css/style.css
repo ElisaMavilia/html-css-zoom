@@ -87,20 +87,21 @@ header{
 
 /* main */
 main{
-    height: calc(100% / 120px);
+    height: calc( 100% - 120px );
     width: 100%;
     gap: 10px; 
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     overflow-y: auto;
     background-color: var(--color-black-primary);
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .userbox{
     width: calc(100% / 7 - 10px);
-    min-width: 300px;
     background-color: blue;
-    
+    position: relative;
 }
 
 main div img{
@@ -109,6 +110,15 @@ main div img{
     display: block;
     object-fit: cover;
     aspect-ratio: 16 / 9;
+}
+
+.badge{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--color-bg-grey);
+    font-size: 10px;
+    padding: 2px;
 }
 
 
