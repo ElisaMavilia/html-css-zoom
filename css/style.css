@@ -69,7 +69,16 @@ header{
 /* main */
 main{
     width: 100%;
+    gap: 10px;
 }
+
+#userbox{
+    width: calc(100% / 7 - 120px - 10px);
+    min-width: 300px;
+    background-color: blue;
+}
+
+
 /* toolbar */
 #toolbar{
     width: 100%;
